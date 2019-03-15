@@ -13,11 +13,11 @@ public class Disk {
         this.field = field;
     }
 
-    boolean isWhite() {
+    public boolean isWhite() {
         return this.isWhite;
     }
 
-    boolean move(Field moveTo) {
+    public boolean move(Field moveTo) {
         int col = this.field.getCol();
         int row = this.field.getRow();
         int[] coordsTo = getCoords(moveTo);

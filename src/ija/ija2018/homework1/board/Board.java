@@ -60,11 +60,11 @@ public class Board {
         }
     }
 
-    Field getField(int col, int row) {
+    public Field getField(int col, int row) {
         return boardField[col - 1][row - 1];
     }
 
-    int getSize() {
+    public int getSize() {
         return this.size;
     }
 }

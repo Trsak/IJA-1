@@ -67,15 +67,4 @@ public class BoardField implements Field {
     public boolean isEmpty() {
         return this.disk == null;
     }
-
-    @Override
-    public boolean equals(java.lang.Object obj) {
-        return this == obj;
-    }
-
-    @Override
-    public int hashCode() {
-        String hash = "" + this.col + this.row;
-        return Integer.parseInt(hash);
-    }
 }
