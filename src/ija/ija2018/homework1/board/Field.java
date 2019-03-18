@@ -13,6 +13,12 @@ public interface Field {
 
     boolean isEmpty();
 
+    int getCol();
+
+    int getRow();
+
+    Board getBoard();
+
     enum Direction {
         D, L, LD, LU, R, RD, RU, U
     }

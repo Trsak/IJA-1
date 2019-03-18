@@ -25,11 +25,11 @@ public class BoardField implements Field {
         return this.board;
     }
 
-    int getCol() {
+    public int getCol() {
         return this.col;
     }
 
-    int getRow() {
+    public int getRow() {
         return this.row;
     }
 

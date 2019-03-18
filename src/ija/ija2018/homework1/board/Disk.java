@@ -2,14 +2,14 @@ package ija.ija2018.homework1.board;
 
 public class Disk {
     private boolean isWhite;
-    private BoardField field;
+    private Field field;
 
     public Disk(boolean isWhite) {
         this.isWhite = isWhite;
         this.field = null;
     }
 
-    public void setField(BoardField field) {
+    public void setField(Field field) {
         this.field = field;
     }
 
